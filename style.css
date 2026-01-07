@@ -8,13 +8,14 @@ h1 {
 
 @font-face {
     font-family: 'MyCustomFont'; 
-    src: url('./fonts/OFL.txt') format('opentype'); 
+    src: url('./fonts/Oswald-VariableFont_wght.ttf') format('opentype'); 
 }
 
 .logo-text {
     font-family: 'MyCustomFont', sans-serif;
     font-size: 48px;
     font-weight: bold;
+    color: #fff;
 }
 
 .logo-container {
@@ -29,4 +30,39 @@ h1 {
 .logo-img {
   height: 80px;
   width: auto;
+}
+
+.createbtn {
+  background-color: #596D48;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 40%;
+  background-image: url('./images/court-yZUhkhB-qbE-unsplash.jpg');
+  background-size: cover;
+}
+
+.form-section {
+  width: 60%;
+  
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:focus {
+  border-color: blue;
 }
