@@ -9,12 +9,24 @@ h1 {
 @font-face {
     font-family: 'MyCustomFont'; 
     src: url('./fonts/OFL.txt') format('opentype'); 
-    font-weight: normal;
-    font-style: normal;
 }
 
-.logo {
+.logo-text {
     font-family: 'MyCustomFont', sans-serif;
     font-size: 48px;
     font-weight: bold;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  margin-top: 100px;
+}
+
+.logo-img {
+  height: 80px;
+  width: auto;
 }
