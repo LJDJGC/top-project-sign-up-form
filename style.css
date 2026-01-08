@@ -74,3 +74,23 @@ input {
   border-radius: 4px;
   padding: 5px;  
 }
+
+.form-rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.createbtn {
+  margin-top: 30px;
+  margin-left: 20px;
+}
